@@ -13,7 +13,7 @@ for(let i=1;i<number;i++){
 }
 let answer=checkPrime(5);
 if (answer==true){
-	console.log("prime no.");
+  console.log("prime no.");
 }else{
 	console.log("not a prime no.");
 }
