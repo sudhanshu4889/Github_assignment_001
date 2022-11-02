@@ -11,5 +11,9 @@ for(let i=1;i<num;i++){
 	return false;
 }
 }
-let num==13;
-console.loglog("prime no.")
+let ans= checkPrime(13);
+if(ans==true){
+	console.log("prime no.");
+}else{
+	console.log("not a prime no.");
+}
